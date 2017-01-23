@@ -1,4 +1,4 @@
 node-opcua
 ==========
 
-A fork of https://github.com/node-opcua/node-opcua using ES6 and webpack
+A fork of https://github.com/node-opcua/node-opcua using ES6 and webpack please see the ES6 branch...
