@@ -9,8 +9,7 @@ import {
     coerceNodeId,
     makeNodeId
 } from "lib/datamodel/NodeId";
-var QualifiedName = require("lib/datamodel/qualified_name").QualifiedName;
-
+import QualifiedName from "lib/datamodel/QualifiedName";
 import makeRelativePath from "lib/address_space/makeRelativePath";
 var RelativePath = require("_generated_/_auto_generated_RelativePath").RelativePath;
 var RelativePathElement = require("_generated_/_auto_generated_RelativePathElement").RelativePathElement;

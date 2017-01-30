@@ -29,8 +29,9 @@ import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 import  AccessLevelFlag from "lib/datamodel/access-level/accessLevelFlag";
 
 import LocalizedText, { coerceLocalizedText } from "lib/datamodel/LocalizedText";
-const QualifiedName       = require("lib/datamodel/qualified_name").QualifiedName;
-const coerceQualifyName   = require("lib/datamodel/qualified_name").coerceQualifyName;
+import QualifiedName, {
+  coerceQualifyName
+} from "lib/datamodel/QualifiedName";
 
 const Range               = require("lib/data_access/Range").Range;
 

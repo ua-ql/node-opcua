@@ -7,7 +7,7 @@ var DataType = require("lib/datamodel/variant").DataType;
 var VariantArrayType = require("lib/datamodel/variant").VariantArrayType;
 var s = require("lib/datamodel/structures");
 var ec = require("lib/misc/encode_decode");
-var QualifiedName = require("lib/datamodel/qualified_name").QualifiedName;
+import QualifiedName from "lib/datamodel/QualifiedName";
 import LocalizedText from "lib/datamodel/LocalizedText";
 var should = require("should");
 var encode_decode_round_trip_test = require("test/helpers/encode_decode_round_trip_test").encode_decode_round_trip_test;

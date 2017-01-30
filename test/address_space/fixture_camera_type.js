@@ -3,7 +3,7 @@ require("requirish")._(module);
 import install from "lib/address_space/add-method/install";
 var should = require("should");
 var DataType = require("lib/datamodel/variant").DataType;
-var QualifiedName = require("lib/datamodel/qualified_name").QualifiedName;
+import QualifiedName from "lib/datamodel/QualifiedName";
 
 exports.createCameraType = function createCameraType(addressSpace) {
 

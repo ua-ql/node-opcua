@@ -41,7 +41,7 @@ var server_NamespaceArray_Id = makeNodeId(VariableIds.Server_NamespaceArray); //
 var resourceLeakDetector = require("test/helpers/resource_leak_detector").resourceLeakDetector;
 
 var assert_arrays_are_equal = require("test/helpers/typedarray_helpers").assert_arrays_are_equal;
-var QualifiedName = require("lib/datamodel/qualified_name").QualifiedName;
+import QualifiedName from "lib/datamodel/QualifiedName";
 import UAVariable from "lib/address_space/UAVariable";
 import UAObject from "lib/address_space/UAObject";
 import Reference from "lib/address_space/Reference";

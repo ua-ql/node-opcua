@@ -2,9 +2,9 @@
 require("requirish")._(module);
 var should = require("should");
 
-var QualifiedName = require("lib/datamodel/qualified_name").QualifiedName;
-
-var coerceQualifiedName = require("lib/datamodel/qualified_name").coerceQualifyName;
+import QualifiedName, {
+    coerceQualifyName as coerceQualifiedName
+} from "lib/datamodel/QualifiedName";
 
 describe("QualifiedName", function () {
 
