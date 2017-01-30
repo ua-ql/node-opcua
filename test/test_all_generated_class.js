@@ -4,6 +4,7 @@ import path from "path";
 import _ from "underscore";
 import assert from "better-assert";
 import {_defaultTypeMap}  from  "lib/misc/factories_builtin_types";
+import __ from "lib/datamodel/numeric-range/NumericRange_Schema";
 
 function getFiles(dir, files_) {
     files_ = files_ || [];
@@ -21,7 +22,6 @@ function getFiles(dir, files_) {
     return files_;
 }
 
-require("lib/datamodel/numeric_range");
 require("lib/datamodel/variant");
 //require("lib/datamodel/buildinfo");
 require("lib/services/browse_service");

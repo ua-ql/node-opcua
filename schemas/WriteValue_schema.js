@@ -1,4 +1,4 @@
-import * as __ from "lib/datamodel/numeric_range"
+import NumericRange_Schema from "lib/datamodel/numeric-range/NumericRange_Schema";
 
 const WriteValue_Schema = {
     name: "WriteValue",

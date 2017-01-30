@@ -17,7 +17,7 @@ var AttributeIds = require("lib/services/read_service").AttributeIds;
 var should = require("should");
 import NodeClass from "lib/datamodel/NodeClass"
 var _ = require("underscore");
-var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 
 var nodeset_filename = path.join(__dirname,"../../lib/server/mini.Node.Set2.xml");
 

@@ -1,7 +1,6 @@
 import AttributeIds from "lib/datamodel/attribute-ids/AttributeIds";
 import isValidAttributeId from "lib/datamodel/attribute-ids/isValidAttributeId";
-
-require("lib/datamodel/numeric_range");
+import NumericRange_Schema from "lib/datamodel/numeric-range/NumericRange_Schema";
 
 const ReadValueId_Schema = {
     name: "ReadValueId",

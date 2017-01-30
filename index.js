@@ -25,7 +25,7 @@ const DataType         = require("lib/datamodel/variant").DataType;
 import DataValue from "lib/datamodel/DataValue";
 const Variant          = require("lib/datamodel/variant").Variant;
 const VariantArrayType = require("lib/datamodel/variant").VariantArrayType;
-const NumericRange     = require("lib/datamodel/numeric_range").NumericRange;
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 import  AccessLevelFlag from "lib/datamodel/access-level/accessLevelFlag";
 
 import LocalizedText, { coerceLocalizedText } from "lib/datamodel/LocalizedText";

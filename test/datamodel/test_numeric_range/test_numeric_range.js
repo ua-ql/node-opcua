@@ -2,7 +2,7 @@
 require("requirish")._(module);
 var should = require("should");
 
-var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 var NumericRangeType = NumericRange.NumericRangeType;
 var StatusCodes = require("lib/datamodel/opcua_status_code").StatusCodes;
 

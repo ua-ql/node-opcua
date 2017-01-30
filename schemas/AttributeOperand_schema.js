@@ -1,5 +1,5 @@
 require("requirish")._(module);
-import {NumericRange} from "lib/datamodel/numeric_range";
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 
 const AttributeOperand_Schema = {
     name:"AttributeOperand",

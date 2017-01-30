@@ -4,7 +4,7 @@ require("requirish")._(module);
 import DataValue from "lib/datamodel/DataValue";
 import extractRange from "lib/datamodel/DataValue/extractRange";
 var VariantArrayType = require("lib/datamodel/variant").VariantArrayType;
-var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 
 var Variant = require("lib/datamodel/variant").Variant;
 var DataType = require("lib/datamodel/variant").DataType;

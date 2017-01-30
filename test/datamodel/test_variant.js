@@ -1,6 +1,7 @@
 "use strict";
 require("requirish")._(module);
 
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 var Variant = require("lib/datamodel/variant").Variant;
 var DataType = require("lib/datamodel/variant").DataType;
 var VariantArrayType = require("lib/datamodel/variant").VariantArrayType;
@@ -786,7 +787,6 @@ describe("Variant with Advanced Array", function () {
             value: [0, 1, 2, 3, 4, 5]
         });
 
-        var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
         var nr = new NumericRange("3:4");
         v.value = nr.extract_values(v.value).array;
         v.value[0].should.eql(3);
@@ -805,7 +805,6 @@ describe("Variant with Advanced Array", function () {
             value: ["ABCDEFGHIJKL", "BCDEFGHIJKLA", "CDEFGHIJKLAB", "DEFGHIJKLABC", "EFGHIJKLABCD", "FGHIJKLABCDE"]
 
         });
-        var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
         var StatusCodes = require("lib/datamodel/opcua_status_code").StatusCodes;
         var nr = new NumericRange("3:4,1:3");
 

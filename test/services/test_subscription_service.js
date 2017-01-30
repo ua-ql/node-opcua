@@ -5,6 +5,7 @@ require("requirish")._(module);
 
 import OPCUAClient from "lib/client/OPCUAClient";
 import DataValue from "lib/datamodel/DataValue";
+import NumericRange from "lib/datamodel/numeric-range/NumericRange";
 
 var should = require("should");
 var assert = require("better-assert");
@@ -124,7 +125,6 @@ describe("testing subscription objects", function () {
     it("should encode and decode a MonitoringParameters with EventFilter filter", function (done) {
 
         var AttributeIds = read_service.AttributeIds;
-        var NumericRange = require("lib/datamodel/numeric_range").NumericRange;
         var obj = new subscription_service.MonitoringParameters({
             samplingInterval: 10,
             discardOldest: true,
